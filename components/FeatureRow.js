@@ -13,7 +13,10 @@ const FeatureRow = ({ id, title, description }) => {
     ...,
     restaurant[]->{
       ...,
-      dishes[]->
+      dishes[]->,
+      type->{
+        name
+      }
     }
   }[0]`,
         { id }
